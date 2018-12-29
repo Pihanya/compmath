@@ -23,7 +23,7 @@
     <relativePath>../compmath-parent/pom.xml</relativePath>
   </parent>
 
-  <artifactId>comppath-labs</artifactId>
+  <artifactId>compmath-algorithms</artifactId>
 
   <dependencyManagement>
     <dependencies>
@@ -42,13 +42,22 @@
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>1.8.0-beta2</version>
-    </dependency>
-    <dependency>
       <groupId>ru.pihanya.opensource</groupId>
       <artifactId>argument-parsing-utilities</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mariuszgromada.math</groupId>
+      <artifactId>MathParser.org-mXparser</artifactId>
+      <version>4.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>

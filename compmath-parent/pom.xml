@@ -10,10 +10,9 @@
   <version>1.0.0-SNAPSHOT</version>
 
   <modules>
-    <module>../../../opensource/argument-parsing-utilities</module>
+    <!--<module>../../../opensource/argument-parsing-utilities</module>-->
     <module>../compmath-library</module>
     <module>../compmath-algorithms</module>
-    <module>../compmath-gui</module>
   </modules>
 
   <properties>
@@ -37,6 +36,20 @@
         <artifactId>junit-jupiter-api</artifactId>
         <version>5.3.1</version>
       </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>1.8.0-beta2</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.4</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 </project>
